@@ -18,17 +18,17 @@ First, clone the project to your local machine:
 
 Then, navigate to the project directory:
 
-`cd lodash-prs`
+```cd lodash-prs```
 
 Install the required dependencies:
 
-`npm install`
+```npm install```
 
 ### Running the Application
 
 To start the application, run:
 
-`npm start`
+```npm start```
 
 This will start the server on the default port (usually `http://localhost:3000`).
 
@@ -37,7 +37,7 @@ This will start the server on the default port (usually `http://localhost:3000`)
 To test the application:
 
 1. Open a separate terminal and ensure the server is running using `npm start`.
-2. Use the provided `.rest` file to test the API endpoint. This requires the Visual Studio Code REST Client extension.
-3. In Visual Studio Code, open the `.rest` file and click on the "Send Request" link above the GET request.
+2. Use the provided `pr-count.rest` file to test the API endpoint. This requires the Visual Studio Code REST Client extension.
+3. In Visual Studio Code, open the `pr-count.rest` file and click on the "Send Request" link above the GET request.
 
 This should display the total count of pull requests in the lodash library.
